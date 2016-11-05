@@ -1,0 +1,9 @@
+1
+2
+3
+esto es una prueba para ver si queda en el mismo renglon 
+ 
+ Contenido del target.write en una sola linea: 
+ 1 
+ 2 
+ 3 
