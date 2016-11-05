@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
+
 #Printing-Printing
 
 #Declaramos una variable llamada formatter, compuesta de cuatro tipos de formatter characters. En este caso todos %r

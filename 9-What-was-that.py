@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #10-What-was-that
 #En python los special characters se escapan con backslash.  Esto se usa para usar comillas dentro de un string declarado con comillas. Tambien podemos usar comillas triples """ en ese caso todo lo que siga sera tomado como string.
 

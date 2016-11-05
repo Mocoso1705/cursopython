@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
+
 #Declara la variable cars con un valor de 100
 cars = 100
 #Declara la variable con un valor de 4.0 (con floating point) para que despues no de error cuando use operaciones aritmeticas. Aunque en este caso no seria necesario porque solo multiplica por cars, que no puede ser con coma
@@ -22,4 +27,11 @@ print "There will be", cars_not_driven, "empty cars today"
 print "We can transport", carpool_capacity, "people today"
 print "We have", passangers, "to carpool today."
 print "We need to put about", average_passangers_per_car, "in each car."
+
+
+#Un solo igual asigna un valor, es decir dice que lo que esta a la izquierda del igual es lo mismo que lo que esta a la derecha del igual. Suele usarse para declarar variables.
+# Dos iguales se usa para hacer un test de si un valor es igual a otro, como en un if
+
+# Si bien puede declararse una variable sin espacios, es decir, x=100, esta mal visto porque lo hace menos legible
+
 

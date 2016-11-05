@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #Declaro la variable "name" con mi nombre
 name = 'Rodrigo Trigo'
 #Declara la variable age y hace un comentario al lado

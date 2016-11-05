@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
 
 # Otra forma de pedir input al usuario es generando un prompt
 #Para hacerlo declaramos la variable y decimos que es igual a raw_input con el prompt dentro de la funcion.

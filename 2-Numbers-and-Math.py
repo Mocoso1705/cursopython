@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #Simple print, dice que va a contar sus gallinas
 print "I will now count my chickens:" 
 
@@ -20,7 +24,7 @@ print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
 
 #Imprime la pregunta
 print "Is it true that 3 + 2 < 5 - 7 ?"
-#Cuando la operacion es si algo es < o > o <= >=, la salida es true
+#Cuando la operacion es si algo es < o > o <= >=, la salida es true o false
 print 3 + 2 < 5 - 7  
 
 #Imprime la pregunta en texto y mestra el resultado de la operacion aritmetica

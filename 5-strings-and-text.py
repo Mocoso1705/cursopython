@@ -1,4 +1,8 @@
 
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #Declaramos la variable x, luego imprimimos el texto llamando a una variable con un formatter de integro decimal. luego declara que la variable llamada es "10"
 #string dentro de string
 x = "There are %d types of people." % 10

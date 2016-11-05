@@ -1,15 +1,10 @@
-# -*- coding: utf-8 -*-
-#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
-
-
 #Comentario
 #Here's some new strange stuff, remember type it exactly
 
 #Declara la variable Days, es un string largo con espacios
 days = "Mon Tue Wed Thu Fri Sat Sun"
 
-#Lo mismo pero con saltos de linea, el \n imprimira en un nuevo renglon cada string.
-#El \ sirve en python tambien para escapar caracteres especiales.
+#Lo mismo pero con saltos de linea, el \n imprimira en un nuevo renglon cada string
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 #Imprimimos texto y las variables, con el coma hara que se imprima en el mismo renglon

@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #Utilizamos el modulo sys e importamos los argumentos
 from sys import argv
 #Declaramos que el  nombre del script sera la variable "script" y el primer argumento "User_name"

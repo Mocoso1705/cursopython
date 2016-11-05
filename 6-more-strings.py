@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+#Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
+
+
 #"Imprime string de texto
 print "Mary had a little lamb"
 #"Imprime string de texto, llama al string "snow" que declaramos al final de la linea. No es una variable sino un string

@@ -1,0 +1,76 @@
+Python Notas
+
+
+el echo es con print
+
+ print "Hola Mundo!"
+POdemos usar comillas simples o comillas dobles para declara strings
+
+print "esto es un 'string'"
+print 'esto tambien es un "string"'
+
+Se comenta con # (octothorpe or pound character)
+  
+  print "Hola mundo"
+  #print "pero esto no lo verán"
+
+  Si vamos a usar algun caracter raro, debemos abrir el archivo con 
+
+   # -*- coding: utf-8 -*-.
+
+  Matematicas y numeros
+
+  Operaciones posibles
+
+  + plus
+- minus
+/ slash
+* asterisk
+% percent
+< less-than
+> greater-than
+<= less-than-equal
+>= greater-than-equal
+
+La forma de procesar las cuentas es PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction. (en ese orden)
+
+
+Podemos hacer la cuenta directamente 
+
+ print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+
+ O bien hacer un print y ejecutar la operacion despues, siempre que luego del print pongamos una ,
+
+
+ print "Resultado", 25 + 30 / 6 
+
+
+Por pantalla saldra el resultado de la operacion al lado del texto.
+
+ Resultado 30
+
+Cuando utilicemos operaciones las operaciones > < => <=  el resultado no sera numerico sino True or False
+
+ print "Es Mayor?", 5 > -2
+
+La salida seria 
+
+ Es Mayor? True
+
+% no se utiliza para operaciones de porcentajes. No es porcentaje, sino que lo que hace es devolver lo que "sobra" de la operacion entre dos operandos. Dado que python no maneja floating point por defecto, no da resultados con coma sino que los redondea Es decir, si hacemos 27 / 5 el resultado sera 5. Si hacemos 11 / 5 el resultado sera 2
+# el modulos nos dara lo que sobra, es decir si hacemos 27%5 el resultado sera 2 y con 11%5 el resutado sera 1
+
+  >>> 27 / 5
+  5
+  >>> 27%5
+  2
+
+ Si queremos que de con coma, debemos agregar decimales. Si hacemos 27.0 / 5.0 si nos dara el resultado correcto
+
+  >>> 27.0 / 5.0 
+  5.4
+
+ 
+
+
+
