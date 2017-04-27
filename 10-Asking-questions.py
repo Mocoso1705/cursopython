@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 #Todo script lo abrimos con el string de utf8 para evitar problemas con los caracteres raros, como ñ etc
-
-
+#
+#
 #Imprime la pregunta
 print "How old are you?"
 #Hace que la variable age tenga el valor tomado de lo que ponga el usuario (funcion raw_input)
